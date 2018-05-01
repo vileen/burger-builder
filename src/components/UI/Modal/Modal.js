@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import classes from './Modal.css';
-import Backdrop from '../Backdrop/Backdrop';
+import Backdrop from '../Backdrop';
 
 class Modal extends Component {
     // not rerendering OrderSummary if Modal is not visible
